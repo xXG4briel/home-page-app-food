@@ -1,0 +1,21 @@
+:root{
+    --text-primary: #2D0C57;
+    --text-secondary: #9586A8;
+    --selected-bg-violet: #E2CBFF;
+    --background: #F6F5F5;
+    --border:#D9D0E3;
+    --primary-button: #0BCE83;
+    --selected-violet:#7203FF;
+    --green: #CBF265;
+    --white: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+h1, h2, h3, h4, h5{
+    color: var(--text-primary);
+}

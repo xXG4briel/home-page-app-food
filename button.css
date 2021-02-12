@@ -1,0 +1,20 @@
+button{
+    margin-top: 1rem;
+    height: 2.7rem;
+    width: 6rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: .8rem;
+}
+button:hover{
+    box-shadow: 3px 2px 0 0 #0000004f;
+    transform: translateY(-3px);
+    transition-duration: .2s;
+}
+button:focus{
+    outline: transparent;
+    border-color: transparent;
+}
+.green-btn{
+    background: var(--primary-button);
+}

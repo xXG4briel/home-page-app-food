@@ -1,0 +1,22 @@
+.top-bar{
+    padding: 1rem 3.2rem 2rem;
+    
+}
+.input{
+    margin:auto;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 3rem;
+    padding: 1rem 0;
+    width:75vh;
+}
+.input svg{
+    padding-left: 1rem;
+}
+.input input{
+    width:60vh;
+    font-size: 16px;
+}
+.input input:focus{
+    outline-color: transparent;
+}

@@ -1,0 +1,48 @@
+h1, h2 { 
+    color: var(--text-primary);
+    padding-top: 1rem;
+}
+span{
+    color: red;
+}
+
+span{
+    color: var(--text-primary);
+}
+p{
+    text-indent: 50px;
+    color: var(--text-secondary);
+    margin: 0 5vh;
+}
+
+.container{
+    top: 200px;
+    position: fixed;
+    height: 70vh;
+    border-radius: 4rem ;
+    background: var(--white);
+    padding-top: 2rem;
+    width: 100vw;
+    height:70vw;
+}
+.text {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.green-btn{
+    width: 65vw;
+    max-width: 300px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+.green-btn span{
+    color: white;
+}
+.buttons{
+    margin: 1.2rem 0;
+    width:100%;
+    display: flex;
+    justify-content:center;
+}
